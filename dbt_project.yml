@@ -39,3 +39,12 @@ models:
        dot_311:
          +materialized: table
 
+
+
+models:
+  group18_analytics:
+    staging:
+      +materialized: table
+
+    marts:
+      +materialized: table
